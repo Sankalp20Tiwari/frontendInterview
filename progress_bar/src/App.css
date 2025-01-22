@@ -1,0 +1,40 @@
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+
+
+}
+
+.progress{
+  height: 20px;
+  width: 500px;
+  background-color: rgb(233,236,239);
+  border: 1px solid black;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.progress > span {
+  color: black;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 99;
+}
+
+.progress div{
+  height: 100%;
+  
+  background-color: #00c251;
+
+}
